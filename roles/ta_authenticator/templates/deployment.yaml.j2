@@ -94,7 +94,7 @@ spec:
             memory: {{ taa_memory_request }}
         livenessProbe:
           tcpSocket:
-            port: http
+            port: auth
           initialDelaySeconds: 20
           timeoutSeconds: 4
           periodSeconds: 10
