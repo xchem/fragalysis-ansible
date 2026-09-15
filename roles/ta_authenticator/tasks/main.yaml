@@ -31,4 +31,4 @@
     when: taa_state | string == 'present'
   - name: Undeploy (with KUBECONFIG)
     ansible.builtin.include_tasks: undeploy.yaml
-    when: taa_state | string == 'present'
+    when: taa_state | string == 'absent'

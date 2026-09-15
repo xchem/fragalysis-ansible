@@ -106,7 +106,7 @@ selected per installation:
 export ANSIBLE_VAULT_PASSWORD_ARGUS=...
 uv run ansible-vault encrypt \
   --vault-id argus@vault-client.py \
-  roles/ta-authenticator/vars/sensitive-argus.vault
+  roles/ta_authenticator/vars/sensitive-argus.vault
 
 # Run a playbook for that installation.
 uv run ansible-playbook site-ta-authenticator.yaml \
